@@ -1,0 +1,59 @@
+body, h1, h2, h3, h4, h5 {
+	font-family: "Raleway", sans-serif
+}
+
+.w3-third img {
+	margin-bottom: -6px;
+	opacity: 0.8;
+	cursor: pointer
+}
+
+.w3-third img:hover {
+	opacity: 1
+}
+form.example input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+	box-sizing: border-box;
+}
+
+form.example button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+form.example button:hover {
+	background: #0b7dda;
+	box-sizing: border-box;
+}
+
+form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+	box-sizing: border-box;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+.input.error{
+	border: : 2px solid red; 
+}
+input.error{
+	border: : 2px solid red; 
+}
+
